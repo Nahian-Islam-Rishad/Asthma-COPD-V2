@@ -1,10 +1,4 @@
 # Asthma-COPD Differentiation: Quantifying Phenotype-Definition Leakage
-
-A four-arm feature ablation study using NHANES 2007-2012 data to separate genuine
-predictive signal from phenotype-definition leakage when distinguishing asthma from
-COPD. Because spirometry is used to *define* the COPD label, models that also receive
-spirometry as input report inflated performance; the ablation quantifies how much.
-
 ---
 
 ## Repository layout
