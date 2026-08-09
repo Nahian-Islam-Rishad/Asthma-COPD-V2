@@ -1,0 +1,72 @@
+# ---------------------------------------------------------------------------
+# NHANES source data
+# ---------------------------------------------------------------------------
+# The .xpt files are public-domain NCHS works and are not redistributed here
+# (see LICENSE). Keep the folder structure, ignore the contents, and let
+# discover_nhanes_files() pick them up from a local download.
+Dataset/**
+!Dataset/
+!Dataset/*/
+!Dataset/**/.gitkeep
+!Dataset/**/README.md
+
+# Stray copies elsewhere in the tree
+*.xpt
+*.XPT
+
+# ---------------------------------------------------------------------------
+# Jupyter
+# ---------------------------------------------------------------------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*-checkpoint.ipynb
+.virtual_documents/
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Environments. environment.yml / env.yml and environment.lock.yml are tracked;
+# the materialised env directory is not.
+.env
+.venv/
+venv/
+env/
+envs/
+.conda/
+
+# ---------------------------------------------------------------------------
+# Editors and OS
+# ---------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.vscode/
+.idea/
+*.swp
+*~
+
+# ---------------------------------------------------------------------------
+# Manuscript build products, if the LaTeX source ever lands in this repo
+# ---------------------------------------------------------------------------
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
