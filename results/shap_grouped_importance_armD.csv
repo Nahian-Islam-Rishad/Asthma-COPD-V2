@@ -1,0 +1,21 @@
+base,mean_abs_shap,label
+ever_smoked_100,0.09570891567146267,Ever smoked 100+ cigarettes
+current_smoking_status,0.06867280674996874,Current smoking status
+age,0.04547094523106763,Age
+bmi,0.037513870772928386,BMI
+wheeze_past_12mo,0.029291789259352035,"Wheeze, past 12 months"
+gender,0.028834306835509957,Sex
+feno_mean,0.019678066360856696,FeNO
+wheeze_exercise,0.016825207175476784,Wheeze on exertion
+poverty_income_ratio,0.01641030780684594,Poverty-income ratio
+wheeze_attacks_past_yr,0.015266297149266467,"Wheezing attacks, past year"
+wheeze_disturbs_sleep,0.010874955279330101,Wheeze disturbing sleep
+waist_circumference,0.010861442925001451,Waist circumference
+education,0.009030550588669925,Education
+eosinophil_pct,0.008871561513890257,Eosinophils (%)
+wbc_count,0.008204108860040292,WBC count
+dry_cough_night,0.006841685244380687,Dry cough at night
+phlegm_most_days_3mo,0.006163696613227798,"Phlegm most days, 3+ months"
+eosinophil_count,0.004077050827982541,Eosinophil count
+work_status,0.002789575285667821,Work status
+cough_most_days_3mo,0.002179705436497933,"Cough most days, 3+ months"

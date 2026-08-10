@@ -1,0 +1,129 @@
+{
+  "A_full": {
+    "n_features": 25,
+    "dropped": [],
+    "features": [
+      "gender",
+      "age",
+      "race_ethnicity",
+      "education",
+      "poverty_income_ratio",
+      "ever_smoked_100",
+      "current_smoking_status",
+      "work_status",
+      "cough_most_days_3mo",
+      "phlegm_most_days_3mo",
+      "wheeze_past_12mo",
+      "wheeze_attacks_past_yr",
+      "wheeze_disturbs_sleep",
+      "wheeze_exercise",
+      "dry_cough_night",
+      "bmi",
+      "waist_circumference",
+      "wbc_count",
+      "eosinophil_pct",
+      "eosinophil_count",
+      "feno_mean",
+      "fev1",
+      "fvc",
+      "pef",
+      "fev1_fvc_ratio"
+    ]
+  },
+  "B_no_ratio": {
+    "n_features": 24,
+    "dropped": [
+      "fev1_fvc_ratio"
+    ],
+    "features": [
+      "gender",
+      "age",
+      "race_ethnicity",
+      "education",
+      "poverty_income_ratio",
+      "ever_smoked_100",
+      "current_smoking_status",
+      "work_status",
+      "cough_most_days_3mo",
+      "phlegm_most_days_3mo",
+      "wheeze_past_12mo",
+      "wheeze_attacks_past_yr",
+      "wheeze_disturbs_sleep",
+      "wheeze_exercise",
+      "dry_cough_night",
+      "bmi",
+      "waist_circumference",
+      "wbc_count",
+      "eosinophil_pct",
+      "eosinophil_count",
+      "feno_mean",
+      "fev1",
+      "fvc",
+      "pef"
+    ]
+  },
+  "C_no_spx": {
+    "n_features": 21,
+    "dropped": [
+      "fev1",
+      "fvc",
+      "pef",
+      "fev1_fvc_ratio"
+    ],
+    "features": [
+      "gender",
+      "age",
+      "race_ethnicity",
+      "education",
+      "poverty_income_ratio",
+      "ever_smoked_100",
+      "current_smoking_status",
+      "work_status",
+      "cough_most_days_3mo",
+      "phlegm_most_days_3mo",
+      "wheeze_past_12mo",
+      "wheeze_attacks_past_yr",
+      "wheeze_disturbs_sleep",
+      "wheeze_exercise",
+      "dry_cough_night",
+      "bmi",
+      "waist_circumference",
+      "wbc_count",
+      "eosinophil_pct",
+      "eosinophil_count",
+      "feno_mean"
+    ]
+  },
+  "D_final": {
+    "n_features": 20,
+    "dropped": [
+      "fev1",
+      "fvc",
+      "pef",
+      "fev1_fvc_ratio",
+      "race_ethnicity"
+    ],
+    "features": [
+      "gender",
+      "age",
+      "education",
+      "poverty_income_ratio",
+      "ever_smoked_100",
+      "current_smoking_status",
+      "work_status",
+      "cough_most_days_3mo",
+      "phlegm_most_days_3mo",
+      "wheeze_past_12mo",
+      "wheeze_attacks_past_yr",
+      "wheeze_disturbs_sleep",
+      "wheeze_exercise",
+      "dry_cough_night",
+      "bmi",
+      "waist_circumference",
+      "wbc_count",
+      "eosinophil_pct",
+      "eosinophil_count",
+      "feno_mean"
+    ]
+  }
+}
